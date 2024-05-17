@@ -4,7 +4,54 @@ supporting materials on 5sigma idea
 # Anomaly detection
 
 - "Anomaly detection in time series: a comprehensive evaluation" - https://timeeval.github.io/evaluation-paper/
-- "Anomaly Detection Principles and Algorithms" (book) - https://link.springer.com/book/10.1007/978-3-319-67526-8 
+- "Anomaly Detection Principles and Algorithms" (book) - https://link.springer.com/book/10.1007/978-3-319-67526-8
+
+### "Anomaly Detection Principles and Algorithms" by Mehrotra Kishan G. and Varun Dahiya
+
+**Description:**
+"Anomaly Detection Principles and Algorithms" provides a comprehensive guide to the concepts, techniques, and algorithms used in anomaly detection. It covers both theoretical foundations and practical implementations, making it a valuable resource for researchers, practitioners, and students in the field of data science, machine learning, and cybersecurity.
+
+**Key Topics Covered:**
+
+1. **Introduction to Anomaly Detection:**
+   - Definition of anomalies and their importance in various applications.
+   - Overview of different types of anomalies: point anomalies, contextual anomalies, and collective anomalies.
+
+2. **Statistical Methods:**
+   - Techniques based on statistical models to detect anomalies.
+   - Methods include Gaussian models, hypothesis testing, and regression analysis.
+
+3. **Machine Learning Approaches:**
+   - **Supervised Learning:** Techniques that require labeled data for training, such as classification algorithms (e.g., SVM, decision trees).
+   - **Unsupervised Learning:** Techniques that do not require labeled data, including clustering (e.g., K-means, DBSCAN) and density-based methods.
+   - **Semi-supervised Learning:** Combines both labeled and unlabeled data to improve detection performance.
+
+4. **Advanced Algorithms:**
+   - **Neural Networks and Deep Learning:** Utilization of neural networks, autoencoders, and LSTM for detecting anomalies in complex data.
+   - **Ensemble Methods:** Combining multiple models to improve robustness and accuracy, such as random forests and boosting techniques.
+
+5. **Time Series Anomaly Detection:**
+   - Specific techniques for handling temporal data, including ARIMA, Holt-Winters, and deep learning approaches like LSTM and GRU.
+
+6. **Contextual and Collective Anomalies:**
+   - Methods to identify anomalies in data with contextual information and groups of data points that together form an anomaly.
+
+7. **Evaluation Metrics:**
+   - Metrics for assessing the performance of anomaly detection models, such as precision, recall, F1-score, and ROC-AUC.
+
+8. **Applications:**
+   - Real-world applications of anomaly detection across various domains, including fraud detection, network security, industrial monitoring, and healthcare.
+
+9. **Case Studies and Practical Implementations:**
+   - Detailed case studies demonstrating the application of different anomaly detection techniques.
+   - Practical guidance on implementing anomaly detection algorithms using popular programming languages and tools.
+
+**Advantages:**
+- **Comprehensive Coverage:** Provides a thorough understanding of both basic and advanced anomaly detection techniques.
+- **Practical Focus:** Includes real-world case studies and practical implementation tips.
+- **Accessible Writing:** Suitable for both beginners and experienced practitioners, with clear explanations and examples.
+
+**Reference:** "Anomaly Detection Principles and Algorithms" by Mehrotra Kishan G. and Varun Dahiya. This book serves as a valuable resource for anyone looking to understand and apply anomaly detection techniques in various fields.
 
 # On predictive maintenance
 
