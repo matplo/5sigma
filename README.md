@@ -7,6 +7,7 @@ supporting materials on 5sigma idea
 
 # On predictive maintenance
 
+- "Predictive Maintenance using Machine Learning" - https://arxiv.org/abs/2205.09402 
 - "Machine learning-based predictive maintenance: A cost-oriented model for implementation" - https://www.sciencedirect.com/science/article/abs/pii/S0925527321000906
 
 # Data analytics - industry
