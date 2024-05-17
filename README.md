@@ -1,5 +1,5 @@
 # 5sigma
-supporting materials on 5sigma idea
+supporting materials on 5sigma idea - thanks to GPT 4o for providing prompted summaries
 
 Designing an automated system for hardware system monitoring and control using multimodal data sources and GPT for reporting is an advanced and multifaceted task. Here's an overview of what has been done and what such a system might look like:
 
@@ -235,8 +235,6 @@ For detailed findings and resources, visit [here](https://timeeval.github.io/eva
 - "Machine learning-based predictive maintenance: A cost-oriented model for implementation" - https://www.sciencedirect.com/science/article/abs/pii/S0925527321000906
 
 # Data analytics - industry
-
-- pushing ChatGPT 4o for summary:
 
 ### Microsoft Fabric
 
