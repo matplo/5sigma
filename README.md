@@ -4,6 +4,7 @@ supporting materials on 5sigma idea
 # Anomaly detection
 
 - "Anomaly detection in time series: a comprehensive evaluation" - https://timeeval.github.io/evaluation-paper/
+- "Anomaly Detection Principles and Algorithms" (book) - https://link.springer.com/book/10.1007/978-3-319-67526-8 
 
 # On predictive maintenance
 
@@ -138,7 +139,54 @@ Microsoft Fabric is an ideal choice for organizations looking to streamline thei
 
 These platforms offer a range of capabilities similar to Microsoft Fabric, allowing for data integration, processing, analysis, and machine learning. Each platform has its strengths and is suitable for different use cases depending on your specific requirements.
 
-# Industry commercial solutions for system maintenance (random)
+# Industry commercial solutions for system maintenance / asset management (random)
 
 - https://www.advancedtech.com/industrial-maintenance/
 - use of MS fabric - https://smartbridge.com/microsoft-fabric-real-time-analytics/ 
+
+### IBM Maximo
+
+- **Description:** IBM Maximo is an enterprise asset management (EAM) solution that leverages IoT, AI, and analytics to optimize the lifecycle management of physical assets across various industries. It helps organizations maximize the performance, extend the lifespan, and ensure the efficient operation of their assets.
+- **Features:**
+  - **Asset Management:** Comprehensive tracking and management of asset information, including maintenance schedules, lifecycle costs, and asset hierarchies.
+  - **Work Management:** Streamlines the planning, scheduling, and execution of maintenance tasks, work orders, and service requests.
+  - **Inventory Management:** Efficiently manages spare parts and materials, ensuring the right parts are available when needed.
+  - **Procurement Management:** Integrates purchasing processes, from requisition to procurement, to ensure cost-effective and timely acquisition of goods and services.
+  - **Service Management:** Manages service delivery, including service level agreements (SLAs) and customer support.
+  - **IoT Integration:** Utilizes IoT data for real-time monitoring of asset conditions, enabling predictive maintenance and reducing downtime.
+  - **AI and Analytics:** Leverages IBM Watson to provide advanced analytics, predictive maintenance, and anomaly detection.
+  - **Mobile Access:** Supports mobile applications for field technicians to access work orders, asset information, and reporting tools on the go.
+
+- **Reference:** [IBM Maximo](https://www.ibm.com/products/maximo)
+
+### Example Applications:
+
+1. **Manufacturing:**
+   - **Application:** Monitors equipment health and performance in real-time using IoT sensors.
+   - **Features:** Predictive maintenance models identify potential failures before they occur, reducing unplanned downtime and maintenance costs.
+   - **Outcome:** Increases equipment availability and optimizes maintenance schedules.
+
+2. **Energy and Utilities:**
+   - **Application:** Manages and maintains critical infrastructure such as power plants, substations, and distribution networks.
+   - **Features:** Advanced analytics for asset performance management and risk assessment.
+   - **Outcome:** Enhances reliability, ensures regulatory compliance, and reduces operational risks.
+
+3. **Transportation:**
+   - **Application:** Oversees fleet management, including vehicles, railcars, and aircraft.
+   - **Features:** Comprehensive tracking of maintenance activities, spare parts inventory, and compliance with safety standards.
+   - **Outcome:** Improves fleet reliability, reduces maintenance costs, and ensures safety.
+
+4. **Healthcare:**
+   - **Application:** Manages medical equipment and facility infrastructure.
+   - **Features:** Scheduling and tracking of preventive maintenance and repairs, ensuring compliance with healthcare regulations.
+   - **Outcome:** Ensures the availability and reliability of critical medical equipment, enhancing patient care.
+
+### Advantages:
+
+- **Comprehensive EAM Solution:** Offers a wide range of functionalities to manage all aspects of asset lifecycle management.
+- **Predictive Maintenance:** Uses AI and IoT to predict asset failures and optimize maintenance activities, reducing downtime and costs.
+- **Scalability:** Suitable for organizations of all sizes, from small enterprises to large, complex operations.
+- **Mobile Capabilities:** Provides mobile solutions for field workers, enhancing productivity and ensuring real-time data access.
+- **Integration:** Easily integrates with other enterprise systems and IoT platforms, providing a holistic view of asset performance and management.
+
+IBM Maximo is ideal for organizations seeking to enhance asset reliability, extend asset life, and improve overall operational efficiency through advanced asset management, IoT integration, and predictive analytics.
