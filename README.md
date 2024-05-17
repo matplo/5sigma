@@ -360,6 +360,71 @@ Microsoft Fabric is an ideal choice for organizations looking to streamline thei
 
 These platforms offer a range of capabilities similar to Microsoft Fabric, allowing for data integration, processing, analysis, and machine learning. Each platform has its strengths and is suitable for different use cases depending on your specific requirements.
 
+# Other projects - useful for 5sigma?
+
+- DOE/NSF funded efforts:
+   - https://nsls-ii.github.io/bluesky/
+   - https://intake.readthedocs.io/en/latest/
+ 
+### Intake
+
+[Intake](https://intake.readthedocs.io/en/latest/) is a lightweight data cataloging system that simplifies the task of loading and sharing data in Python. It supports various data formats and sources, offering an easy API for accessing data. Key features include:
+
+- **Data Cataloging:** Organizes and manages data sources.
+- **Ease of Use:** Simplifies data loading with minimal code.
+- **Extensibility:** Supports plugins for custom data loaders.
+- **Integration:** Works well with data science tools like Pandas and Dask.
+
+It aims to make data discovery and sharing straightforward within data-driven projects.
+
+### Bluesky
+
+[Bluesky](https://nsls-ii.github.io/bluesky/) is a Python-based library for experimental data collection in scientific research. It provides tools for planning, performing, and analyzing experiments, offering real-time feedback and reproducibility. Key features include:
+
+- **Data Collection:** Streamlined acquisition and storage of experimental data.
+- **Live Feedback:** Real-time monitoring and analysis during experiments.
+- **Reproducibility:** Ensures experiments can be consistently replicated.
+- **Integration:** Compatible with various instruments and data formats.
+
+Bluesky aims to enhance the efficiency and accuracy of experimental workflows in scientific research.
+
+# Tools - data processing, pipelines, streaming
+
+### Kafka
+
+- **Description:** Apache Kafka is a distributed event streaming platform capable of handling real-time data feeds. It is designed for high-throughput and low-latency data integration, enabling applications to publish and subscribe to data streams, process them in real-time, and store them reliably.
+- **Features:**
+  - **Scalability:** Easily scales horizontally by adding more brokers.
+  - **Fault Tolerance:** Ensures data durability and availability through replication.
+  - **Performance:** Handles large volumes of data with low latency.
+  - **Real-time Processing:** Supports stream processing via Kafka Streams and ksqlDB.
+- **Use Cases:** Real-time analytics, log aggregation, data pipelines, and event sourcing.
+- **Reference:** [Apache Kafka](https://kafka.apache.org/)
+
+### Confluent
+
+- **Description:** Confluent is a full-scale data streaming platform built on Apache Kafka. It enhances Kafka's capabilities, providing a reliable, scalable infrastructure for real-time data streaming and processing across various industries.
+- **Features:**
+  - **Confluent Cloud:** Managed Kafka service that offers easy deployment and scalability.
+  - **Confluent Platform:** Includes additional tools for data integration, stream processing, and enterprise-grade security.
+  - **Schema Registry:** Manages and enforces data schemas.
+  - **Connectors:** Pre-built connectors for various data sources and sinks.
+  - **ksqlDB:** SQL-based stream processing engine.
+- **Use Cases:** Real-time analytics, event sourcing, microservices, and data integration.
+
+- **Reference:** [Confluent](https://www.confluent.io/)
+
+### Apache Beam
+
+- **Description:** Apache Beam is an open-source unified programming model for defining and executing data processing pipelines, both batch and stream (real-time). It allows developers to build robust, scalable data processing workflows and run them on various execution engines like Apache Flink, Apache Spark, and Google Cloud Dataflow.
+- **Features:**
+  - **Unified Model:** Supports both batch and stream processing.
+  - **Portability:** Write once, run anywhere on multiple execution environments.
+  - **Flexibility:** Extensive set of APIs and transformation primitives.
+  - **Advanced Windowing:** Sophisticated time-based processing capabilities.
+- **Use Cases:** ETL processes, real-time analytics, data integration, and machine learning pipelines.
+- **Reference:** [Apache Beam](https://beam.apache.org/)
+
 # Industry commercial solutions for system maintenance / asset management (random)
 
 - https://www.advancedtech.com/industrial-maintenance/
